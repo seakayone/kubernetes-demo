@@ -1,0 +1,18 @@
+= Introduction
+
+In this repo I gather short snippets of code for a small hands-on kubernetes demonstration. This demonstration is currently being performed with the local docker-for-desktop kubernetes cluster.
+
+= Alternatives for a local Kubernetes cluster
+
+* https://microk8s.io/
+* https://github.com/kubernetes/minikube
+* https://github.com/MiniShift/minishift
+* https://docs.docker.com/docker-for-mac/kubernetes/
+* https://docs.docker.com/docker-for-windows/kubernetes/
+
+
+= Additional Resources and interesting blog articles
+
+* https://rominirani.com/tutorial-getting-started-with-kubernetes-with-docker-on-mac-7f58467203fd
+* https://kubernetes.io/docs/tutorials/kubernetes-basics/
+
