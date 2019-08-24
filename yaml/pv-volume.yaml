@@ -11,4 +11,4 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: "/Users/christian/Desktop/nginx-demo/pv"
+    path: "/Users/kleinboelting/git/misc/kubernetes-local-demo/pv"

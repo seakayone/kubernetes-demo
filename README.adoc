@@ -10,8 +10,12 @@ In this repo I gather short snippets of code for a small hands-on kubernetes dem
 * https://docs.docker.com/docker-for-mac/kubernetes/
 * https://docs.docker.com/docker-for-windows/kubernetes/
 
+= Kubernetes tools
 
-= Additional Resources and interesting blog articles
+* https://ahmet.im/blog/kubectx/[kubectx] a tool to switch between Kubernetes contexts
+* https://kompose.io/[kompose] a tool to help users familiar with docker-compose move to Kubernetes, it takes a Docker Compose file and translates it into Kubernetes resources 
+
+= Additional resources and interesting blog articles
 
 * https://rominirani.com/tutorial-getting-started-with-kubernetes-with-docker-on-mac-7f58467203fd
 * https://kubernetes.io/docs/tutorials/kubernetes-basics/
