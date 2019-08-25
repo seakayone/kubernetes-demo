@@ -1,0 +1,44 @@
+<h1>Local Kubernetes Cluster for Developers</h1>
+
+<object data="/images/kubernetes_cluster.svg" type="image/svg+xml"></object>
+
+---
+<h1>Create a local Kubernetes Cluster</h1>
+
+<div class="grid-container">
+    <div class="grid-item">
+        <object data="/images/certified-kubernetes-logo.svg" type="image/svg+xml"></object>
+    </div>
+    <div class="grid-item">
+        <h2><a href="https://docs.docker.com/docker-for-mac/kubernetes/">Docker for Desktop</a></h2>
+        <h2><a href="https://microk8s.io">Microk8s on Ubuntu</a></h2>
+        <h2><a href="https://github.com/kubernetes/minikube">Minkube VM</a></h2>
+    </div>
+</div>
+
+---
+<h1>Build a container and run</h1>
+
+<split-view>
+        <web-term path="docker"></web-term>
+        <web-browser src="http://localhost:8000/"></web-browser>
+</split-view>
+
+---
+<h1>Deploy container on local cluster and expose</h1>
+<split-view>
+        <web-term path="kubernetes"></web-term>
+        <web-browser src="http://localhost:8000/"></web-browser>
+</split-view>
+
+---
+<h1>Using YAML to manage deployments and services on local cluster</h1>
+<split-view>
+        <web-term path="yaml"></web-term>
+        
+        <source-code folder="yaml"
+            files="deployment.yaml service.yaml pv-volume.yaml pv-claim.yaml"
+            start-lines="0"
+            end-lines="0">
+        </source-code>
+</split-view>

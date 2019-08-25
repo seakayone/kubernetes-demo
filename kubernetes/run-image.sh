@@ -1,2 +1,2 @@
 #!/bin/sh
-kubectl run hello-nginx --image=nginx-demo:test
+kubectl run --generator=run-pod/v1 hello-nginx --image=nginx-demo:test
