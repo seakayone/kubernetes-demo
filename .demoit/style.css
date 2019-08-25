@@ -36,6 +36,10 @@ body {
     height: 100%;
 }
 
+strong {
+    color: var(--color-main);
+}
+
 #top {
     position: relative;
     background-color: white;
